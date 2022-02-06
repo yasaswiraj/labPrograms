@@ -2,7 +2,6 @@ import java.security.*;
 
 public class MD5 {
     public static void main(String[] a) {
-        // TODO code application logic here
         try {
             MessageDigest md = MessageDigest.getInstance("MD5");
             System.out.println("Message digest object info: ");
